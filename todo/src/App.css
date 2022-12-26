@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.header h1 { 
+  font-weight: 900;
+  margin-top: 100px;
+}
+
+.todoList {
+  position : relative;
+}
+
+.updateInput {
+  background-color: rgb(56, 56, 56);
+  margin-bottom : 15px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.updateInput input {
+  width : 70%;
+  height: 70%;
+  border-radius: 10px;
+  border : solid 2px skyblue;
+}
+
+.updateInputButton {
+  width : 10%;
+  border : none;
+  background-color: skyblue;
+  color : white;
+  height: 60%;
+  border-radius: 10px;
+}
+
+.updateClose {
+  background: none;
+  border : none;
+  font-size: 1.2rem;
+}
+
+.buttonEffect {
+  width : 80%;
+  height : 40px;
+  border : solid 3px skyblue;
+  background-color: white;
+  color : skyblue;
+  font-weight : 800;
+  border-radius : 15px;
+}
+
+#buttonSearchEffect {
+  border : none;
+  background-color : skyblue;
+  color : white;
+}
+
